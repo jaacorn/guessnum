@@ -2,6 +2,12 @@
 
 A simple game of guess the number built in Python.
 
+> This project is in early development. The game currently runs within
+> a command line window.
+
+! [Alt text] (guessnum1.png)
+
+
 *Developer: jaacorn*
 
 * Github: https://github.com/jaacorn/guessnum
