@@ -1,13 +1,9 @@
-# Jaacorn - December 10, 2017
+# jaacorn - December 10, 2017 - Project Conception
+# jaacorn - December 10, 2017 - Ongoing Development
 # guessmynum.py
 
 import random
 import sys
-
-# Possibly unecessary function
-def random_num():
-    num = random.randint(0,101)
-    return num
 
 # Begin program UI
 print("Welcome to \"Guess My Number\"!")
@@ -18,7 +14,7 @@ print("2 - Exit")
 mminput = input("::")
 
 if int(mminput) == 1:
-    num = random_num()
+    num = random.randint(0,101)
     print("Guess a number between 1 and 100")
     print("")
     while True:
@@ -30,6 +26,7 @@ if int(mminput) == 1:
             print("Incorrect guess")
             # Uncomment below for debugging purposes
             # print(num)
+            print("")
     print("Game Over")
 else:
     print("Goodbye")
