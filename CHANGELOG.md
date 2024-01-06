@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+## [1.2.1] - 2024-01-06 - Major Update
+### Added
+- Input validation
+- Hints
+
+### Changed
+- Re-wrote the whole thing
+
+### Fixed
+- Menu Navigation
+
+### Removed
+- Mid-game exit command
+
+
 ## [1.1.1] - 2017-12-23 - Official Alpha Release
 ### Added
 - Mid-game exit command
@@ -18,10 +34,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Main menu input handling
 
+
 ## [0.0.2] - 2017-12-10
 ### Changed
 - Code optimizations
 - README.md updates
+
 
 ## [0.0.1] - 2017-12-10
 ### Added
